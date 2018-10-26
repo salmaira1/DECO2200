@@ -29,13 +29,13 @@ a { color: #B4707E;
 .card{border: none; background-color: transparent;}
 
 /*Navbar Rules*/
-img.nav-bar-img{ font-family: 'Georgia', Serif;
+img.nav-bar-img{ font-family: 'Futura', Serif;
 	margin-right: 10px; color: #eee;
 
 }
 
 .navbar{
-	font-family: 'Georgia', Serif;
+	font-family: 'Futura', Serif;
 	background-color: #FFF;
 	
 	padding-top: 2rem;
