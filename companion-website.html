@@ -22,24 +22,39 @@
  <link rel="icon" href="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/common/favicon.png" type="image/x-icon"/>
 <link rel="shortcut icon" href="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/common/favicon.png.ico" type="image/x-icon"/>
 
-<script>
-  $(document).ready(function() {
-
-        $('.showprocess').click(function() {
-                $('.toggle').slideToggle("slow");
-        });
-
-        $("#fold").click(function () {
-        $(".fold_p").fadeOut(function () {
-            $(".fold_p").text(($(".fold_p").text() == '+ Show design process') ? '- Hide design process' : '+ Show design process').fadeIn();
-            })
-         })
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
     });
+});
 </script>
+
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+
   </head>
   <body>
+<div id="flip">Click to slide the panel down or up</div>
+<div id="panel">Hello world!</div>
 
+<script>
+$( "button" ).click(function() {
+  $( "p" ).slideToggle( "slow" );
+});
+</script>
       <!-- This is where our Navbar lives -->
       <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container">
