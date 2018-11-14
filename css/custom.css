@@ -128,7 +128,7 @@ span.img-caption{
 	font-family:'Helvetica', Sans-Serif;
 	font-size: 15px;
 	color: #fff;
-	text-transform: uppercase;
+	text-transform: uppercase;  padding: 10px;
 }
 
 .welcome-button:hover{
