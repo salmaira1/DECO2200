@@ -175,3 +175,8 @@ span.img-caption{
     }
 
 
+.responsive {
+    width: 100%;
+    max-width: 842px;
+    height: auto;
+}

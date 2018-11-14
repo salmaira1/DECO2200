@@ -20,9 +20,23 @@
     <!-- This is our Meta Description -->
     <meta name="description" content="What you write here will often show up in search results under the page title">
  <link rel="icon" href="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/common/favicon.png" type="image/x-icon"/>
-<link rel="icon" 
-      type="image/png" 
-      href="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/common/si%20logo.png">
+<link rel="shortcut icon" href="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/common/favicon.png.ico" type="image/x-icon"/>
+
+<script>
+  $(document).ready(function() {
+
+        $('.showprocess').click(function() {
+                $('.toggle').slideToggle("slow");
+        });
+
+        $("#fold").click(function () {
+        $(".fold_p").fadeOut(function () {
+            $(".fold_p").text(($(".fold_p").text() == '+ Show design process') ? '- Hide design process' : '+ Show design process').fadeIn();
+            })
+         })
+
+    });
+</script>
   </head>
   <body>
 
@@ -47,6 +61,29 @@
 
     <div class="container">
      
+     <div class="row">
+        <div class="col-md-12">
+          <p><div style="font-size: 20px; font-weight: 300; text-align:center;">In Semester 2 2018, I was enrolled in DECO2200: Interaction Design Studio. The design brief required us to create a user interface for an autonomous technology of our own choosing. Alongside my group members Ellie Kim and Ben Niceforo, we created an app for a hypothetical  autonomous tourist bus, a concept we dubbed AUTOURBUS. The following outlines the design process we undertook in the creation of our app.  </div>
+</p>
+        </div>
+      </div>   
+
+
+    
+      <center>
+           <img src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/portfolio2/1.png" class="responsive">
+           <img src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/portfolio2/2.png" class="responsive">
+           <img src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/portfolio2/3.png" class="responsive">
+           <img src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/portfolio2/4.png" class="responsive">
+           <img src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/portfolio2/5.png" class="responsive">
+           <img style="padding-bottom: 100px;" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/portfolio2/6.png" class="responsive">
+           <img style="padding-bottom: 100px;" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/portfolio2/7.png" class="responsive">
+           <img style="padding-bottom: 100px;" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/portfolio2/8.png" class="responsive">
+           <img style="padding-bottom: 20px;" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/portfolio2/9.png" class="responsive">
+           <img src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/portfolio2/10.png" class="responsive">
+           </center>
+         
+       
 
       <div class="row master-heading">
         <div class="col-md-12"><center><img width="30%" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/companion-website/logo.png"/><br><br><br><br>
@@ -93,7 +130,9 @@ th, td {
 <h3><center><div style="font-size: 50px;font-weight: bold;color: #6ED200;">Features</div></center></h3>
 <p><div style="font-size: 25px; text-align:center;font-weight: 300;">Don't know where to start your Sydney adventure? <br>Overwhelmed by the vast amount of modes of transport that Sydney has to offer? <br>AUTOURBUS is your answer.</p></div><center>
 
-<table style="width:100%">
+<div style="overflow-x:auto;">
+
+<table style="width:100%;">
   <tr>
     <th><center><img width="70px" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/companion-website/language%20(1).png"><br><br><div style="color: #6ED200;"> Languages</div> <div style="font-size:10px; font-weight: 200;">Tourists can use the app in their preferred language</div> </center></th>
     <th><center><img width="70px" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/companion-website/route.png"><br><br><div style="color:#6ED200">Guided tours</div> <div style="font-size:10px; font-weight: 200;">Experience a tour of Sydney's hot spots in your preferred language</div></center></th>
@@ -105,7 +144,7 @@ th, td {
     <th><center><img width="70px" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/companion-website/credit-cards-payment.png"><br><br><div style="color:#6ED200">Payment</div> <div style="font-size:10px; font-weight: 200;">The service is paid through Opal via your preferred payment method</div></center></th>
     <th><center><img width="70px" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/companion-website/history-clock-button.png"><br><br><div style="color:#6ED200">Trip History</div> <div style="font-size:10px; font-weight: 200;">Store and look back on your trips through the Trip History</div></center></th>
   </tr></center>
-</table>
+</table></div>
 
       <div class="row section-heading">
         <div class="col-md-12">
@@ -154,6 +193,7 @@ th, td {
     text-align: left;    
 }
 </style>
+<div style="overflow-x:auto;">
 <table style="width:100%">
   <tr>
     
@@ -161,8 +201,13 @@ th, td {
     <th><center><img width="200px" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/companion-website/IMG_5594.png"><br><br><div style="color: #6ED200;">Sherly, 22, Korean</div> <div style="font-size:10px; font-weight: 200;"><i>"I absolutely love that I can change it to Korean. This will ease my adventures in Sydney!"</i></div> </center></th>
     <th><center><img width="200px" src="https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/companion-website/IMG_8242.png"><br><br><div style="color:#6ED200">Vicky, 20, Local</div> <div style="font-size:10px; font-weight: 200;"><i>"I love that I can browse through current events! I'll never miss out."</i></div></center></th>
   
-</table>
+</table></div><br><br><br><br>
 
+<h3><center><div style="font-size: 50px;font-weight: bold;color: #6ED200;">FINAL VIDEO</div></center></h3>
+<p><center><div style="font-size: 25px; font-weight: 300;">The following video outlines the design process and demonstrates the app in use.</div><center><br><br>
+
+      <div class="col-md-8">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bWB7ZtknNo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
 
