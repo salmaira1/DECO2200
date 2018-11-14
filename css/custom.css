@@ -125,7 +125,7 @@ span.img-caption{
 	background-color: #000;
 	border-radius: 0px 0px 0px 0px;
 	border: 1px solid #000;
-	font-family:'Montserrat', Sans-Serif;
+	font-family:'Helvetica', Sans-Serif;
 	font-size: 15px;
 	color: #fff;
 	text-transform: uppercase;
@@ -136,7 +136,20 @@ span.img-caption{
 	border-color: #000;
 	color: #000;
 }
-
+.welcome-button2{
+	background-color: #000;
+	border-radius: 0px 0px 0px 0px;
+	border: 1px solid #000;
+	font-family:'Helvetica', Sans-Serif;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase; padding: 15px;
+}
+.welcome-button2:hover{
+	background-color: #fff;
+	border-color: #000;
+	color: #000;
+}
 .master-heading{
 	padding-top: 50px;	
 }
