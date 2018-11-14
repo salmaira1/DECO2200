@@ -5,21 +5,7 @@ Modify this file to your hearts content and make your website look awesome!*/
 
 body{
 	background-color: #fff;
-	padding-top: 80px;
-}
-
-a { color: #000;
-}
-a:link {
-  
-  
-}
-a:visited {
-  font-weight: 400;
-  text-decoration: line-through;
-}
-a:hover, a:focus { color:#388c3c; ;
-  text-decoration: underline ;
+	padding-top: 200px;
 }
 
 /*Home*/
@@ -29,60 +15,49 @@ a:hover, a:focus { color:#388c3c; ;
   padding-bottom: 100px;
   width:100%;
   min-height: 100vh;
-  background: url('https://raw.githubusercontent.com/salmaira1/DECO2200/master/img/common/000033.JPG') no-repeat center center fixed;
+  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 
-.full-page-bg2 { opacity: 0.8;
-  position: absolute;
-  margin-top: -80px;
-  padding-bottom: 100px;
-  width:100%;
-  min-height: 100vh;
-  background: url() no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
+
 
 /*Cards*/
 .card{border: none; background-color: transparent;}
 
 /*Navbar Rules*/
+img.nav-bar-img{
+	margin-right: 10px;
+}
 
-.navbar{
-	font-family: 'Futura', Serif;
-	background-color: transparent;
-	
-	padding-top: 2rem;
-  padding-bottom: 2rem;
+.navbar{padding-top: 100px;
+	background-color: #fff; position: absolute;
 
 }
 
-
-a.navbar-brand{ color: #fff;
-	font-family: 'Futura', sans-serif;
-	font-weight: 500;
-	font-size: 30px;
-letter-spacing: 1px;
-	
+a.navbar-brand{
+	font-family:'Futura', Sans-Serif;
+	font-size: 10px;
 }
+
+a.nav-item  {letter-spacing: 3px;
+	font-size: 15px;
+font-family: 'Futura', sans-serif;
+font-weight:bold;
+color: #212423;}
 
 /*Floating Nav*/
 .floating-nav{
-	
 	position: fixed;
 	margin-top: 50px;
 	border-left: 1px solid #727272;
 }
 
 	a.float-nav-link{
-		font-family: 'Futura', Serif;
-	
+		font-family: 'Futura', Sans-Serif;
+		color: #595959;
 		font-size: 14px;
 		font-weight: 600;
 		text-align: left;
@@ -90,36 +65,31 @@ letter-spacing: 1px;
 
 /*Image Rules*/
 img{
-	border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
-	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
 	border: 0px solid #000000;
 }
 
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
 	font-family:'Futura', Sans-Serif;
-	margin-bottom: 20px;
+	margin-bottom: 20px;font-weight: bold; letter-spacing: 3px;
 }
 	h1.welcome-special{
-		
-		font-size: 60px;
-
-		font-family: 'Futura', sans-serif;
-		font-weight: 300;
+		font-size: 90px;
 	}
 
-	h2.welcome-special-sub{ margin-left: -100px; margin-top: 50px;
-		font-weight: 500; width: 300px;
-		font-family: 'Futura', sans-serif;letter-spacing: 2px;
-color:#fff; text-align: left ;
-		font-size: 20px;
+	h2.welcome-special-sub{
+		font-family: 'Futura', Sans-Serif;
+		font-size: 25px;
+		letter-spacing: 2px;
+		line-height: 30px;
 	}
 
 	h3{
 		text-transform: uppercase;
-		color: #B4707E;
-		text-align: left;
+		color: #B4707E;;
 		letter-spacing: -0.5px;
 	}
 
@@ -144,26 +114,27 @@ span.img-caption{
 
 /*Container/class etc Override Rules*/
 .welcome-message{
-	margin-top: 200px;
+	margin-top: 100px;
 }
 
-.welcome-button-container{ text-align: center;
+.welcome-button-container{
 	margin-top: 20px;
 }
 
 .welcome-button{
-	background-color: transparent;
+	background-color: #000;
 	border-radius: 0px 0px 0px 0px;
-	border: 3px solid #fff;
-	font-family:'Futura', Sans-Serif;
+	border: 1px solid #000;
+	font-family:'Montserrat', Sans-Serif;
 	font-size: 15px;
-	color: #FFF;
+	color: #fff;
 	text-transform: uppercase;
 }
 
-.welcome-button:hover {
-	background-color: #000;
-	border-color: #FFF;
+.welcome-button:hover{
+	background-color: #fff;
+	border-color: #000;
+	color: #000;
 }
 
 .master-heading{
@@ -178,22 +149,29 @@ span.img-caption{
 	padding: 30px 0px 50px 0px;
 }
 
-.bodyClass{
-	background-color: rgb(255,255,255)!important;
-}
-
 /*Footer*/
 .footer{
 	margin-top: 50px;
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #FFFFFF;
-	border-top: 1px solid #FFF;
+	background-color: #fff;
+	
 }
 
-branding-invision {
-	background-color: rgb(255,255,255);
-}
+.hoverTable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	
+	/* Define the default color for all the table rows */
+	.hoverTable th{
+		background: #fff;
+	}
+	/* Define the hover highlight color for the table row */
+    .hoverTable th:hover {
+          opacity: 0.6;
+
+    }
 
 
